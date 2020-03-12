@@ -70,6 +70,7 @@ class Person
         [friend, self].each do |person|
           person.happiness=happiness
           "blah blah sun blah rain"
+        else
       end
     end
   end
