@@ -64,7 +64,7 @@ class Person
   def start_conversation(friend, topic)
     if topic == politics
       [friend, self].each do |person| 
-        person.happiness -= 2
+        person.happiness -= 2'
       end
       "blah blah partisan blah lobbyist"
   end
