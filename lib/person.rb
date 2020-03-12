@@ -67,6 +67,7 @@ class Person
         person.happiness -= 2
       end
       "blah blah partisan blah lobbyist"
+    end
         elsif topic == weather
         [friend, self].each do |person|
           person.happiness=happiness
