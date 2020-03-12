@@ -61,7 +61,11 @@ class Person
     end
     return "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
-  def start_conversation(person, topic)
-    "blah blah partisan blah lobbyist"
+  def start_conversation(friend, topic)
+    if topic == politics
+      [friend, self].each do |person| 
+        person.happiness -= 2
+      end
+      "blah blah partisan blah lobbyist"
   end
 end
