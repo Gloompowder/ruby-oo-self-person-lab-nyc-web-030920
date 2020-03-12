@@ -62,6 +62,6 @@ class Person
     return "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
   def start_conversation(person, topic)
-    
+    "blah blah partisan blah lobbyist"
   end
 end
