@@ -58,7 +58,7 @@ class Person
   def call_friend(friend)
     [friend, self].each do |person|
       person.happiness+= 3
-      "Hi #{friend}! It's #{self}. How are you?"
     end
+    "Hi #{friend}! It's #{self}. How are you?"
   end
 end
