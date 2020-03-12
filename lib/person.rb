@@ -66,13 +66,12 @@ class Person
       [friend, self].each do |person| 
         person.happiness -= 2
       end
-      "blah blah partisan blah lobbyist"
-    end
+      return "blah blah partisan blah lobbyist"
         elsif topic == weather
         [friend, self].each do |person|
           person.happiness=happiness
       end
-      "blah blah sun blah rain"
+      return "blah blah sun blah rain"
     end
   end
 end
