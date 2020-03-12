@@ -59,6 +59,6 @@ class Person
     [friend, self].each do |person|
       person.happiness+= 3
     end
-    return "Hi #{friend}! It's #{self}. How are you?"
+    return "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
 end
